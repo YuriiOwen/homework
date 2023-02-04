@@ -8,5 +8,4 @@ Route::get('/', [DefaultController::class, 'homepage']);
 Route::get('/about', [DefaultController::class, 'about']);
 Route::get('/contacts', [DefaultController::class, 'contacts']);
 
-//Route::get('/users/create', [UserController::class, 'create']);
-Route::post('/users/create', [UserController::class, 'create']);
+Route::get('/users/create', [UserController::class, 'create']);
