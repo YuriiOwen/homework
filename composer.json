@@ -1,0 +1,16 @@
+{
+    "name": "yuriibabenko/homework",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "Homework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "YuriiOwen",
+            "email": "babenko.yurii13@gmail.com"
+        }
+    ],
+    "require": {}
+}
